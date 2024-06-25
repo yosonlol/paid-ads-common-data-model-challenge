@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: task
+    database:   dbt_akazaryan
+    tables:
+      - name: bing_data
+      - name: fb_data
+      - name: tiktok_data
+      - name: twitter_data
+      - name: union_data
+

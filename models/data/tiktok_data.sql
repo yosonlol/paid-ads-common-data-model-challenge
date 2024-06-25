@@ -1,0 +1,28 @@
+select 
+    date,
+    add_to_cart,
+    clicks,
+    NULL as comments,
+    NULL as engagements,
+    impressions,
+    rt_installs as intalls,
+    NULL as likes,
+    NULL as link_clicks,
+    NULL as post_click_conversions,
+    NULL as post_view_conversions,
+    NULL as posts,
+    purchase,
+    registrations,
+    NULL as revenue,
+    NULL as shares,
+    spend,
+    conversions as total_conversions,
+    video_views,
+    ad_id,
+    NULL as adset_id,
+    campaign_id,
+    channel,
+    NULL as creative_id,
+    NULL as placement_id    
+from {{ref('src_ads_tiktok_ads_all_data')}}
+
