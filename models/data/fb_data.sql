@@ -16,7 +16,7 @@ select
     purchase_value as revenue,
     shares,
     spend,
-    NULL as total_conversions,
+    purchase as total_conversions,
     NULL as video_views,
     ad_id,
     adset_id,
